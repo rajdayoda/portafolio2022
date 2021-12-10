@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    
+}
+
+
+body {
+    font-size: 18px;
+    font-family: 'Signika', sans-serif;
+}
+
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*Header*/
+.hero {
+    /* background-image: url(./img/fondo-desktop.jpg); */
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    /* position: relative; */
+    z-index: 2;
+    
+}
+.hero img {
+    width: 100%;
+    height: 530px;
+    /* position: absolute; */
+    opacity: .35;
+}
+
+.navbar {
+    justify-content: end;
+    padding: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    
+
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+/*utilities*/
+
+.flex {
+    display: flex;
+}

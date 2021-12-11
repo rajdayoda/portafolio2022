@@ -23,6 +23,7 @@ body {
 /*Header*/
 .hero {
     /* background-image: url(./img/fondo-desktop.jpg); */
+    position: relative;
     background-color: black;
     width: 100%;
     height: 600px;
@@ -69,15 +70,18 @@ body {
 /*circle*/
 
 .circle-trans{
+    position: absolute;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     border: solid 10px var(--primary);
-    opacity: 0.2;
+    opacity: .2;
 }
 .circle {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border:solid 1px var(--primary);
+    border: solid 10px black;
+  
+
 }

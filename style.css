@@ -48,13 +48,15 @@ body {
     
 
 }
-
 .navbar a {
     font-size: 1.5rem;
     color: white;
     padding: 10px;
     margin: 20px;
     text-decoration: none;
+}
+.navbar a:hover {
+    border-bottom: var(--primary) solid;
 }
 
 /*utilities*/
@@ -140,7 +142,9 @@ span {
     top: 490px;
     z-index: 11;
 }
-
+.square-text-3:hover {
+    border-bottom: var(--primary) solid;
+}
 
 .contact-icon{
     top: 360px;

@@ -111,6 +111,7 @@ body {
 
 }
 .square {
+    position: relative;
     width: 320px;
     height: 450px;
     background-color: #333333;
@@ -119,12 +120,16 @@ body {
     z-index: 10;
 }
 .square-text{
+    position: absolute;
     font-size: 2rem;
     color:var(--secondary);
     top:300px;
-    text-align: center;
     z-index: 11;
 
+
+}
+.contact-icon{
+    top: 270px;
 }
 .contact-icon img {
     width: 50px;

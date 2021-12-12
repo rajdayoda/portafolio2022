@@ -63,8 +63,9 @@ body {
     display: flex;
 }
 
-
-
+span {
+    color:var(--primary)
+}
 
 /*circle*/
 
@@ -123,14 +124,29 @@ body {
     position: absolute;
     font-size: 2rem;
     color:var(--secondary);
-    top:300px;
+    top:380px;
     z-index: 11;
-
-
 }
+
+.square-text-2 {
+    color: var(--secondary);
+    position: absolute;
+    top: 415px;
+    z-index: 11;
+}
+.square-text-3 {
+    color: var(--secondary);
+    position: absolute;
+    top: 490px;
+    z-index: 11;
+}
+
+
 .contact-icon{
-    top: 270px;
+    top: 360px;
+    z-index: 11;
 }
 .contact-icon img {
-    width: 50px;
+    width: 30px;
+
 }

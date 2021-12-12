@@ -7,6 +7,7 @@
 
 :root {
     --primary:#18db86;
+    --secondary:white;
 }
 
 body {
@@ -27,8 +28,6 @@ body {
     background-color: black;
     width: 100%;
     height: 600px;
-    position: relative; 
-    z-index: 2;
     
 }
 .hero img {
@@ -39,7 +38,7 @@ body {
 }
 
 .navbar {
-    justify-content: end;
+    justify-content: flex-end;
     padding: 20px;
 }
 
@@ -69,19 +68,64 @@ body {
 
 /*circle*/
 
-.circle-trans{
+.profile div {
     position: absolute;
-    width: 100px;
-    height: 100px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+ .profile-img {
+    position: relative;
+    top:134px;
+    z-index: 20;
+} 
+
+.profile img{
+    width: 202px;
+    height: 202px;
     border-radius: 50%;
-    border: solid 10px var(--primary);
+    border:0px;
+}
+
+.circle-trans{
+
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    border: solid 30px var(--primary);
     opacity: .2;
+    top: 90px;
+    z-index: 19;
 }
 .circle {
-    width: 80px;
-    height: 80px;
+    width: 230px;
+    height: 230px;
     border-radius: 50%;
-    border: solid 10px black;
+    border: solid 15px var(--primary);
+    top: 120px;
+    z-index: 21;
   
 
+}
+.square {
+    width: 320px;
+    height: 450px;
+    background-color: #333333;
+    opacity: 0.7;
+    top: 70px;
+    z-index: 10;
+}
+.square-text{
+    font-size: 2rem;
+    color:var(--secondary);
+    top:300px;
+    text-align: center;
+    z-index: 11;
+
+}
+.contact-icon img {
+    width: 50px;
 }

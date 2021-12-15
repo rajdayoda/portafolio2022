@@ -8,14 +8,24 @@
 :root {
     --primary:#18db86;
     --secondary:white;
+    --secondary-light:rgb(173, 173, 173);
+    --dark1:#222222;
+    --dark2:#050505;
 }
 
 body {
     font-size: 18px;
     font-family: 'Signika', sans-serif;
+    color: var(--secondary);
 }
 
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 2.2rem;
+    font-weight: lighter;
 
+}
 .container {
     width: 1100px;
     margin: 0 auto;
@@ -59,6 +69,100 @@ body {
     border-bottom: var(--primary) solid;
 }
 
+
+
+
+
+
+
+
+
+/*skills*/
+
+section.skills {
+    background-color: var(--dark1);
+}
+
+.skill {
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+
+.knowledge {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.tools {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*briefcase*/
+.briefcase{
+    background-color: var(--dark1) ;
+}
+
+.briefcase-grid h2 {
+    margin: 0;
+    padding: 40px;
+
+}
+.briefcase-img {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:15px;
+    padding-bottom: 50px;
+}
+
+.briefcase-img img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+/*about*/
+
+.about {
+    background-color: var(--dark2);
+}
+
+.about-grid {
+    grid-template-columns: 2fr 1fr;
+    padding: 10px 0 200px;
+    justify-items: center;
+
+}
+.about p {
+    font-size: 1.5rem;
+    color:var(--secondary-light)
+}
+
+.social img {
+    width: 50px;
+    margin: 10px;
+}
+
+/*footer*/
+footer {
+    background-color: var(--dark2);
+    text-align: center;
+    color: var(--secondary-light);
+}
+
+
+
+
+
 /*utilities*/
 
 .flex {
@@ -67,6 +171,11 @@ body {
 
 span {
     color:var(--primary)
+}
+
+.grid {
+    display:grid;
+
 }
 
 /*circle*/

@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal.min.css">
 </head>
 
 <body>
@@ -53,12 +54,12 @@
     <div class="briefcase-section">
        <h2><span>Briefcase |</span> Portafolio</h2>
        <div class="briefcase-grid grid">
-        <div><img src="./img/Imagendeprueba.jpg" alt=""></div>
-        <div><img src="./img/Imagendeprueba.jpg" alt=""></div>
-        <div><img src="./img/Imagendeprueba.jpg" alt=""></div>
-        <div><img src="./img/Imagendeprueba.jpg" alt=""></div>
-        <div><img src="./img/Imagendeprueba.jpg" alt=""></div>
-        <div><img src="./img/Imagendeprueba.jpg" alt=""></div>
+        <div><a data-modal-id="myModal"><img src="./img/Imagendeprueba.jpg" alt=""></a></div>
+        <div><a data-modal-id="myModal"><img src="./img/Imagendeprueba.jpg" alt=""></a></div>
+        <div><a data-modal-id="myModal"><img src="./img/Imagendeprueba.jpg" alt=""></a></div>
+        <div><a data-modal-id="myModal"><img src="./img/Imagendeprueba.jpg" alt=""></a></div>
+        <div><a data-modal-id="myModal"><img src="./img/Imagendeprueba.jpg" alt=""></a></div>
+        <div><a data-modal-id="myModal"><img src="./img/Imagendeprueba.jpg" alt=""></a></div>
        </div>
 
     </div>
@@ -115,10 +116,29 @@
     </div>
 </div>
 </section>
+
+<!-- Modal -->
+<div id="myModal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+      <div class="eins-modal-close"></div>
+  
+      EJEMPLO DE PRUEBA
+      
+      <button class="eins-modal-close-button">OK</button>
+    </div>
+  </div>
+
+
+
+
+
+
 <footer >
     <div class="container">
     <p>ⓒ 2020 Copyright | Designed by N/CODER</p></div>
 </footer>
+
+<script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
 
 </html>

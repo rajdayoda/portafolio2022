@@ -134,9 +134,9 @@ section.skills {
     grid-template-columns: repeat(auto-fit,minmax(290px,auto)) ;
     /* grid-template-columns: repeat(auto-fit,330px) ; */
     justify-content: center;
-
     gap:15px;
     padding-bottom: 50px;
+    cursor: pointer;
 }
 
 .briefcase-grid img {

@@ -1,0 +1,22 @@
+{
+  "name": "portafolio2022",
+  "version": "1.0.0",
+  "description": "Mi portafolio actualizacion 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajdayoda/portafolio2022.git"
+  },
+  "author": "Rajesh Daya Oda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajdayoda/portafolio2022/issues"
+  },
+  "homepage": "https://github.com/rajdayoda/portafolio2022#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2"
+  }
+}

@@ -26,10 +26,10 @@ h2 {
     font-weight: lighter;
 
 }
-/* .container {
-    width: 90%;
+.container {
+    max-width: 1200px;
     margin: 0 auto;
-} */
+} 
 
 /*Header*/
 .hero {
@@ -42,7 +42,6 @@ h2 {
 .hero img {
     width: 100%;
     height: 530px;
-    position: absolute;
     opacity: .35;
 }
 
@@ -159,10 +158,11 @@ section.skills {
     justify-items: center;
 
 }
+
 .about p {
     width: 90%;
     margin:0 auto;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color:var(--secondary-light)
 }
 
@@ -180,7 +180,105 @@ footer {
 
 
 
+/*Modals*/
 
+.eins-modal-content{
+    max-width: 700px;
+    background-color:var(--dark1);
+    opacity: .7;
+}
+
+.eins-modal-preview img {
+    width:100% ;
+    height: 320px;
+    padding:  0 50px 20px 0;
+    
+}
+
+.pw-robodactav2-content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+}
+
+.eins-modal-text p {
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+.eins-modal-text-2 {
+    padding: 50px 0 10px;
+}
+.eins-modal-text-2 a {
+    color: var(--primary);
+}
+
+.eins-modal-text-3 {
+    display: flex;
+    gap:10px;
+}
+
+.eins-modal-tec {
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ grid-template-rows: repeat(2);
+ gap: 10px;
+}
+
+
+
+
+/* 
+.eins-modal-content-2{
+    max-width: 900px;
+    background-color:var(--dark1);
+    opacity: .7;
+}
+
+.eins-modal-preview {
+    width: 350px;
+    height: 500px;
+}
+.eins-modal-preview img{
+    width: 350px;
+    height: 450px;
+}
+.eins-modal-info {
+    display: flex;
+    gap:50px;
+}
+
+.eins-modal-tec {
+    display: flex;
+}
+
+.eins-modal-text {
+    font-size: 1.5rem;
+    padding: 50px;
+    
+
+}
+ */
+
+
+
+
+
+
+
+
+
+
+.hy {
+width: 100%;
+    max-width: 500px;
+    margin: 15px auto;
+    position: relative;
+    background: #18db86;
+    border: 0 solid #000;
+    padding: 35px;
+    border-radius: 8px;
+
+}
 
 /*utilities*/
 

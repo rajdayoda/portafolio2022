@@ -89,10 +89,36 @@ section.skills {
     grid-template-columns: repeat(auto-fit,minmax(250px,auto)) ;
     justify-content: center;
     padding-bottom: 100px;
-    gap:100px 170px;
+    gap:170px;
+    /* gap:100px 170px; */
 }
 
+.skill >div>div>div {
+    position: relative;
+}
 
+.skill >div>div>div img {
+    display: block;
+    margin: 0 auto;
+}
+
+.skill h3 {
+    color:var(--primary);
+    background:var(--dark2); 
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0;
+    transform: translate(0px,-100px) ;
+    transition:opacity 0.3s ease, transform 0.3s ease;
+
+}
+
+.skill>div>div>div:hover h3 {
+    opacity: 1;
+    transform: translate(0px,-145px);
+  
+}
 .knowledge {
     width: 90%;
     margin: 0 auto;
@@ -105,13 +131,13 @@ section.skills {
 .skill img {
     width: 90px;
     height: 90px;
+    justify-content: center;
 }
 .tools {
     width: 90%;
     margin: 0 auto;
     grid-template-columns: repeat(auto-fit,minmax(70px,auto)) ;
     justify-content: center;
-    /* grid-template-columns: repeat(auto-fit,100px); */
     gap: 20px;
 
 }

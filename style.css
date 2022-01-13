@@ -181,6 +181,7 @@ section.skills {
 .briefcase-grid img {
     border-radius: 10px;
     width: 100%;
+    width: 100%;
     transition: transform 0.2s ease;
 }
 .briefcase-grid img:hover {

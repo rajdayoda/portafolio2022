@@ -48,11 +48,13 @@ h2 {
 .navbar {
     justify-content: flex-end;
     padding: 20px;
+
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
     
 
 }
@@ -84,7 +86,7 @@ section.skills {
 .skill {
     width: 90%;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fit,minmax(400px,auto)) ;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto)) ;
     justify-content: center;
     padding-bottom: 100px;
     gap:100px 170px;
@@ -98,10 +100,16 @@ section.skills {
     justify-content: center;
     gap: 20px;
 }
+
+.knowledge img,
+.skill img {
+    width: 90px;
+    height: 90px;
+}
 .tools {
     width: 90%;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fit,minmax(100px,auto)) ;
+    grid-template-columns: repeat(auto-fit,minmax(70px,auto)) ;
     justify-content: center;
     /* grid-template-columns: repeat(auto-fit,100px); */
     gap: 20px;
@@ -187,17 +195,24 @@ footer {
     background-color:var(--dark1);
     opacity: .7;
 }
+.eins-modal-preview {
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
 
 .eins-modal-preview img {
-    width:100% ;
-    height: 320px;
+    width: 100% ;
+    height: 100%;
     padding:  0 50px 20px 0;
     
 }
 
 .pw-robodactav2-content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);  
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));  
+    margin:0 auto;
 }
 
 .eins-modal-text p {
@@ -215,6 +230,7 @@ footer {
 .eins-modal-text-3 {
     display: flex;
     gap:10px;
+    flex-wrap: wrap;
 }
 
 .eins-modal-tec {
@@ -224,50 +240,16 @@ footer {
  gap: 10px;
 }
 
+.eins-modal-tec img {
+    width: 50px;
+    height: 50px;
+}
+
+
 
 
 
 /* 
-.eins-modal-content-2{
-    max-width: 900px;
-    background-color:var(--dark1);
-    opacity: .7;
-}
-
-.eins-modal-preview {
-    width: 350px;
-    height: 500px;
-}
-.eins-modal-preview img{
-    width: 350px;
-    height: 450px;
-}
-.eins-modal-info {
-    display: flex;
-    gap:50px;
-}
-
-.eins-modal-tec {
-    display: flex;
-}
-
-.eins-modal-text {
-    font-size: 1.5rem;
-    padding: 50px;
-    
-
-}
- */
-
-
-
-
-
-
-
-
-
-
 .hy {
 width: 100%;
     max-width: 500px;
@@ -278,7 +260,7 @@ width: 100%;
     padding: 35px;
     border-radius: 8px;
 
-}
+} */
 
 /*utilities*/
 
@@ -381,9 +363,9 @@ span {
 
 }
 
-@media only screen and (min-width:946px)
+/* @media only screen and (min-width:946px)
 {
     .social {
         display: grid;
     }
-}
+} */

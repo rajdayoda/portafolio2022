@@ -84,76 +84,62 @@ section.skills {
 }
 
 .skill {
-    width: 90%;
-    margin: 0 auto;
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,auto)) ;
     justify-content: center;
-    padding-bottom: 110px;
     gap:170px;
-    /* gap:100px 170px; */
-}
-
-.skill >div>div>div {
-    position: relative;
-}
-
-.skill >div>div>div img {
-    display: block;
+    width: 90%;
     margin: 0 auto;
+    padding-bottom: 110px;
 }
+
+.skill h2 {
+    padding-bottom: 60px ;
+}
+.skill img{
+    width:90px;
+}
+
+.knowledge {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(110px,auto)) ;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(70px,auto)) ;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+/*tooltip code*/
 
 .skill h3 {
-    width: 120px;
+    font-size: 1.1rem;
+    width: 100px;
     color:var(--primary);
     background:var(--dark2); 
     text-align: center;
-    padding: 5px;
-    border-radius: 5px;
+    border-radius: 5px; 
+    padding: 5px 0;
     opacity: 0;
     transform: translate(0px,-100px) ;
     transition:opacity 0.4s ease, transform 0.4s ease;
 
 }
 
-.skill>div>div>div:hover h3 {
+.knowledge>div:hover h3,
+.tools>div:hover h3 {
     opacity: 1;
     transform: translate(0px,-150px);
-  
 }
 
-.skill h2 {
-    padding-bottom: 60px ;
-}
-.knowledge {
-    width: 90%;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit,minmax(100px,auto)) ;
-    justify-content: center;
-    gap: 25px;
-}
-
-.knowledge img,
-.skill img {
-    width: 90px;
-    height: 90px;
-    justify-content: center;
-}
-.tools {
-    width: 90%;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit,minmax(70px,auto)) ;
-    justify-content: center;
-    gap: 25px;
-
-}
-
-
-
-
-
-
-
-
+/*END tooltip code*/
 
 
 
@@ -195,24 +181,29 @@ section.skills {
     background-color: var(--dark2);
 }
 
-.about-grid {
+.about-flex {
+    display: flex;
     width: 90%;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fit,minmax(425px,auto)) ;
     padding: 10px 0 200px;
-    justify-items: center;
+    /* justify-items: center; */
 
 }
 
-.about p {
+.about p {  
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color:var(--secondary-light);
     width: 90%;
     margin:0 auto;
-    font-size: 1.5rem;
-    color:var(--secondary-light)
 }
 
+.social {
+    border-left: var(--secondary) 5px solid;
+    padding-left: 50px;
+}
 .social img {
-    width: 50px;
+    width: 60px;
     margin: 10px;
 }
 

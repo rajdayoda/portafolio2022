@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -52,7 +53,7 @@
     <div class="briefcase-section container">
         <h2><span>Briefcase |</span> Portafolio</h2>
         <div class="briefcase-grid">
-            <div><a data-modal-id="myModal"><img src="./img/pagina-web-portafolio2022.png" alt=""></a></div>
+            <div><a data-modal-id="pw-portafolio"><img src="./img/pagina-web-portafolio2022.png" alt=""></a></div>
             <div><a data-modal-id="pw-ropbodactav2"><img src="./img/pagina-web-robodactav2.jpg" alt=""></a></div>
             <div><a data-modal-id="pw-dacorp"><img src="./img/pagina-web-dacorp.png" alt=""></a></div>
             <div><a data-modal-id="pw-ionic"><img src="./img/pagina-web-ionic.jpg" alt=""></a></div>
@@ -131,19 +132,19 @@
 <section class="about" id="about-me">
     <div class="about-flex container">
         <div class="about-info">
-            <p>Mi nombre es Rajesh Daya Oda, Soy Ingeniero en Robótica, Frontend Developer enfocado a aplicaciones y desarollo web. Subo contenido relacionado a programación desde mi canal de Youtube en donde comparto mis conocimientos a la comunidad. Pienso que con algo he de aportar. Toco varios instrumentos, me gusta la música y soy amante del buen cine.</p>
+            <p>Mi nombre es Rajesh Daya Oda, Soy Ingeniero en Robótica, Frontend Developer enfocado a aplicaciones y desarrollo web. Subo contenido relacionado a programación desde mi canal de Youtube en donde comparto mis conocimientos a la comunidad. Pienso que con algo he de aportar. Toco varios instrumentos, me gusta la música y soy amante del buen cine.</p>
             <p><br>He trabajo en diferentes proyectos web con diversas tecnologías. Estuve desarrollando algunos proyectos de robótica con la plataforma de ARDUINO hace algún tiempo para una compañía y ahora me he enfocado más al Desarrollo de aplicaciones web. Me mantengo siempre actualizado ya que me gusta aprender cosas nuevas.</p>
         </div>
         <div class="social">
-            <a href="#" target="_blank"><img src="./img/github.svg" alt=""></a>
-            <a href="#"target="_blank"><img src="./img/linkedin.svg" alt=""></a>
-            <a href="#"target="_blank"><img src="./img/youtube.svg" alt=""></a>
+            <a href="https://github.com/rajdayoda" target="_blank"><img src="./img/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in/rajdayoda"target="_blank"><img src="./img/linkedin.svg" alt=""></a>
+            <a href="https://www.youtube.com/channel/UCrBj22EAjbwih60lqZI-zDA/featured"target="_blank"><img src="./img/youtube.svg" alt=""></a>
             <a data-modal-id="message"><img src="./img/message.svg" alt=""></a>
         </div>
     </div>
     <div class="icon-elements">
          <div>
-             <a href="#" target="blank">
+             <a href="https://www.youtube.com/watch?v=s-oY-1kRAcA" target="blank">
             <img src="./img/youtube.icon.png" alt=""> 
             <span>/ Ver el paso a paso de como se construyó este portafolio </span></a>
         </div>
@@ -163,7 +164,7 @@
 
 <!-- Modal section -->
 
-<div id="myModal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+<!-- <div id="myModal" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
     <div class="eins-modal-content">
       <div class="eins-modal-close"></div>
   
@@ -171,8 +172,52 @@
       
       <button class="eins-modal-close-button">OK</button>
     </div>
-  </div>
+  </div> -->
 <!-- Modal section -->
+
+<div id="pw-portafolio" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
+    <div class="eins-modal-content">
+        <div class="eins-modal-close"></div>
+            <div class="pw-content">
+                <div class="eins-modal-preview">
+                    <img src="/img/2pagina-web-portafolio2022.png" alt="">
+                </div>
+                <div class="eins-modal-text">
+                    <p>Portafolio Web Personal, Construido con HTML, CSS Y JS. <br>Se usó librerias de npm y se optimizó la página con webpack. Se uso estructura SEO básica para la semántica en buscadores
+                    </p>
+                    <p> Se documentó el proceso paso a paso de como crear este portafolio desde cero, puedes ver el video desde el enlace del canal de youtube.
+                    </p>
+                    <p>También puedes acceder a él desde el repositorio de github</p>
+                    <div class="eins-modal-text-2">
+                        <span>ENLACE:</span><a href="/">https://rajdayoda.com</a>
+                    </div>
+                    <div class="eins-modal-text-3">
+                        <span>Tecnologías Usadas:</span>
+                        <div class="eins-modal-tec">
+                            <img src="/img/html-icon.png" alt="">
+                            <img src="/img/css-icon.png" alt="">
+                            <img src="/img/js-icon.png" alt="">
+                            <img src="/img/npm-icon.png" alt="">
+                            <img src="/img/webpack-icon.png" alt="">
+                            <img src="/img/seo-icon.png" alt="">
+                            <div>
+                                <a href="https://www.youtube.com/watch?v=s-oY-1kRAcA" target="blank">
+                               <img src="./img/youtube.icon.png" alt=""> 
+                               <span>/ Ver el paso a paso de como se construyó este portafolio </span></a>
+                           </div>
+                           <div>
+                               <a href="https://github.com/rajdayoda/portafolio2022" target="blank">
+                              <img src="./img/github-icon.png" alt=""> 
+                              <span>/ Ver código de este portafolio desde el repositorio</span></a>
+                          </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <div id="pw-ropbodactav2" class="eins-modal" data-options="openTransition: expandIn; openDuration: 200;">
@@ -183,8 +228,14 @@
                     <img src="/img/2pagina-web-robodacta.png" alt="">
                 </div>
                 <div class="eins-modal-text">
-                    <p>Robodacta Tienda de Robótica didática México. E-commerce de artículos de robótica para proyectos de ingenieria
-                    motores, sensores, tarjetas, kit de robótica y mas.</p>
+                    <p>Robodacta Tienda de Robótica didática México. Actualización 2022 
+                    E-commerce de artículos de robótica para proyectos de ingeniería
+                    motores, sensores, tarjetas, kit de robótica y más.</p>
+                    <p>Actualmente se encuentra en desarrollo con funcionalidad de puntos 
+                        de recompensa, emails personalizados en los pedidos. Y se implementarán aplicaciones de 
+                        seguimiento para evaluar movimiento en ventas. Así como estructura SEO para 
+                        posicionamiento en buscadores.
+                    </p>
                     <div class="eins-modal-text-2">
                         <span>ENLACE:</span><a href="https://tienda.robodacta.mx"target="_blank">https://tienda.robodacta.mx</a>
                     </div>
@@ -211,7 +262,8 @@
                     <img src="/img/2pagina-web-dacorp.png" alt="">
                 </div>
                 <div class="eins-modal-text">
-                    <p> Dacorp Group- Centro autorizado Panasonic. Creación de página coorporativa, servicios de instalación, mantenimiento y venta de repuestos. Optimización SEO y uso de Google Ads para posicionamiento.  </p>
+                    <p> Dacorp Group- Centro autorizado Panasonic.<br> Creación de página coorporativa.<br>Es una empresa que ofrece servicios de instalación, mantenimiento y venta de repuestos Panasonic.  </p>
+                    <p> Optimización con SEO e implementación de SEM para posicionamiento</p>
                     <div class="eins-modal-text-2">
                         <span>ENLACE:</span><a href="https://dacorp.net"target="_blank">https://dacorp.net</a>
                     </div>
@@ -237,7 +289,8 @@
             <div class="eins-modal-preview"><img src="/img/2pagina-web-ionic.png" alt="">
             </div>
             <div class="eins-modal-text">
-                <p> Ionic Pro- Página de lanzamiento de producto Ionic Uv Purifier. Un purificador por UV que se coloca en los aires acondicionados y elimina virus y bacterias presentes en el ambiente </p>
+                <p> Página corporativa de Ionic Pro- Página de lanzamiento de producto Ionic Uv Purifier.  </p>
+                <p> Un purificador por UV (luz ultravioleta) que se coloca en los aires acondicionados y elimina virus y bacterias presentes en el ambiente</p>
                 <div class="eins-modal-text-2">
                     <span>Enlace:</span> <a href="https://ionicpro.net"target="_blank">https://ionicpro.net</a>
                 </div>
@@ -260,7 +313,8 @@
             <div class="eins-modal-preview"><img src="/img/2pagina-web-repar.png" alt="">
             </div>
             <div class="eins-modal-text">
-                <p>Página coorporativa para empresa panameña enfocada a sistemas de energía solar, montacargas, elevadores de carga y tecles. </p>
+                <p>Repar Ind. Sa, Página coorporativa para empresa panameña enfocada en reparaciónes y sistemas industriales.  </p>
+                <p> Tienen dos ramas importantes. Instalación de Energía Solar e Instalación, mantenimiento y reparación de  Tecles y montacargas.</p>
                 <div class="eins-modal-text-2">
                     <span>Enlace:</span> <a href="https://reparind.com"target="_blank">https://reparind.com</a>
                 </div>
@@ -283,7 +337,8 @@
             <div class="eins-modal-preview"><img src="/img/2pagina-web-neuroPanama.png" alt="">
             </div>
             <div class="eins-modal-text">
-                <p>NeuroPanama página coorporativa en colaboración con otro diseñador. Clinica enfocada a la neuropsicología. Tratamientos, asesorias y orientacion para mejorar el funcionamiento cognitivo de la persona.    </p>
+                <p>NeuroPanama, página coorporativa de la empresa en colaboración con otro diseñador web.   </p>
+                <p>Clínica enfocada a la neuropsicología. Tratamientos, asesorias y orientación para mejorar el funcionamiento cognitivo de la persona. </p>
                 <div class="eins-modal-text-2">
                     <span>Enlace:</span> <a href="https://clinicaneuropanama.com/"target="_blank">https://clinicaneuropanama.com</a>
                 </div>
@@ -321,7 +376,7 @@
 
 
 
-
+<script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 
 </body>
 

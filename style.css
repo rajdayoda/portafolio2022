@@ -229,12 +229,15 @@ footer {
 /*icon elements*/
 
 .icon-elements {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
     justify-content: center;
     gap: 20px;
     padding-bottom: 200px;
     width: 90%;
     margin: 0 auto;
+    
 }
 
 
@@ -283,8 +286,7 @@ footer {
 
 .eins-modal-text-2 {
     padding: 80px 0 10px;
-    /* width: 90%;
-    margin:0 auto; */
+
 }
 
 .eins-modal-text-2 a {
@@ -296,6 +298,25 @@ footer {
     width: 50px;
     height: 50px;
 }
+
+
+.eins-modal-text p{
+    padding: 5px 0;
+    opacity: .8;
+}
+
+.eins-modal-text-3 img:hover{
+    transform: scale(1.1);
+
+}
+.eins-modal-text-3 span:hover{
+    color: var(--secondary);
+}
+.eins-modal-text-3 a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 
 /*contact form*/
 

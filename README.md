@@ -5,9 +5,9 @@ Aquí esta el desarrollo de mi portafolio web versión 2022.
 
 Uso de HTML, CSS Y Javascript. Uso de NPM para implementación de modals (pop-ups) o ventanas emergentes.
 
-Empaquetado con a tecnología de webpack.
+Empaquetado con la tecnología de Webpack.
 
-Si deseas ver como se desarrollo este portafolio paso a paso puedes verlo desde el siguiente enlace:
+# Si deseas ver como se desarrollo este portafolio paso a paso puedes verlo desde el siguiente enlace:
 
 https://youtube.com
 

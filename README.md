@@ -9,7 +9,7 @@ Empaquetado con la tecnología de Webpack.
 
 # Si deseas ver como se desarrollo este portafolio paso a paso puedes verlo desde el siguiente enlace:
 
-https://youtu.be/s-oY-1kRAcA
+https://www.youtube.com/watch?v=s-oY-1kRAcA
 
 Tambien puedes ver mis otros proyectos hacia la comunidad en el canal de youtube: N/Coder
 
